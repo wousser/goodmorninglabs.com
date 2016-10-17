@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="319px" height="304px" viewBox="0 0 319 304" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="156.5" cy="150.5" r="70.5"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Original" transform="translate(-42.000000, -48.000000)">
+            <g id="Group-4" transform="translate(43.000000, 49.000000)">
+                <path d="M219.257812,271.647461 C207.479664,293.042129 185.284596,302 161.5,302 C140.677398,302 111.402344,292.1875 95.34375,271.647461 C79.108962,250.882057 65.7246094,222.632813 35.671875,209.046875 C5.61914062,195.460938 0.974609375,170.195313 0.974609375,160.115234 C0.974609375,133.216797 23.671875,129.296875 29.671875,115.578125 C35.671875,101.859375 29.8066406,96.8496094 23.6953125,83.5859375 C17.5839844,70.3222656 9.171875,39.1582031 30.7539063,23.234375 C52.3359375,7.31054687 62.4335938,17.1171875 78.8886719,29.2714844 C95.34375,41.4257813 104.492188,42.9472656 122.455078,41.4257812 C151.238404,38.9877894 151.971477,0.521863311 190.974609,0.267578125 C208.304454,0.154594305 221.240234,14.9726563 227.298828,35.3261719 C233.357422,55.6796875 229.367187,64.7148438 241.570312,83.5859375 C253.773437,102.457031 312.600586,114 316.691406,152 C319.851789,181.357081 282.002534,208.533917 259.367187,222.632813 C242.528654,233.121043 235.50293,242.138672 219.257812,271.647461 Z" id="Combined-Shape" stroke="#9B9B9B" stroke-width="2" fill="#FFFFFF"></path>
+                <g id="Egg-Yolk">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#FC9B24" stroke-width="1" fill="#EED52C" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <ellipse id="Oval" fill="#FFFFFF" cx="134.188825" cy="99.7809002" rx="10.1888246" ry="7.78090023"></ellipse>
+                <ellipse id="Oval" fill="#FFFFFF" cx="115.331458" cy="111.912957" rx="5.33145809" ry="4.91295705"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
