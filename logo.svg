@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="319px" height="304px" viewBox="0 0 319 304" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
-    <title>Group 4</title>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Original</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <circle id="path-1" cx="156.5" cy="150.5" r="70.5"></circle>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
-            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
-            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        <radialGradient cx="-87.8296764%" cy="-90.9380541%" fx="-87.8296764%" fy="-90.9380541%" r="395.64949%" gradientTransform="translate(-0.878297,-0.909381),rotate(45.360000),scale(1.000000,1.007432),translate(0.878297,0.909381)" id="radialGradient-1">
+            <stop stop-color="#FFE255" offset="0%"></stop>
+            <stop stop-color="#FAB000" offset="100%"></stop>
+        </radialGradient>
+        <circle id="path-2" cx="199.5" cy="199.5" r="70.5"></circle>
+        <filter x="-7.1%" y="-7.1%" width="119.9%" height="119.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="4" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
     </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Original" transform="translate(-42.000000, -48.000000)">
-            <g id="Group-4" transform="translate(43.000000, 49.000000)">
-                <path d="M219.257812,271.647461 C207.479664,293.042129 185.284596,302 161.5,302 C140.677398,302 111.402344,292.1875 95.34375,271.647461 C79.108962,250.882057 65.7246094,222.632813 35.671875,209.046875 C5.61914062,195.460938 0.974609375,170.195313 0.974609375,160.115234 C0.974609375,133.216797 23.671875,129.296875 29.671875,115.578125 C35.671875,101.859375 29.8066406,96.8496094 23.6953125,83.5859375 C17.5839844,70.3222656 9.171875,39.1582031 30.7539063,23.234375 C52.3359375,7.31054687 62.4335938,17.1171875 78.8886719,29.2714844 C95.34375,41.4257813 104.492188,42.9472656 122.455078,41.4257812 C151.238404,38.9877894 151.971477,0.521863311 190.974609,0.267578125 C208.304454,0.154594305 221.240234,14.9726563 227.298828,35.3261719 C233.357422,55.6796875 229.367187,64.7148438 241.570312,83.5859375 C253.773437,102.457031 312.600586,114 316.691406,152 C319.851789,181.357081 282.002534,208.533917 259.367187,222.632813 C242.528654,233.121043 235.50293,242.138672 219.257812,271.647461 Z" id="Combined-Shape" stroke="#9B9B9B" stroke-width="2" fill="#FFFFFF"></path>
-                <g id="Egg-Yolk">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                    <use stroke="#FC9B24" stroke-width="1" fill="#EED52C" fill-rule="evenodd" xlink:href="#path-1"></use>
-                </g>
-                <ellipse id="Oval" fill="#FFFFFF" cx="134.188825" cy="99.7809002" rx="10.1888246" ry="7.78090023"></ellipse>
-                <ellipse id="Oval" fill="#FFFFFF" cx="115.331458" cy="111.912957" rx="5.33145809" ry="4.91295705"></ellipse>
-            </g>
+    <g id="Original" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M262.257812,320.647461 C250.479664,342.042129 228.284596,351 204.5,351 C183.677398,351 154.402344,341.1875 138.34375,320.647461 C122.108962,299.882057 108.724609,271.632813 78.671875,258.046875 C48.6191406,244.460938 43.9746094,219.195313 43.9746094,209.115234 C43.9746094,182.216797 66.671875,178.296875 72.671875,164.578125 C78.671875,150.859375 72.8066406,145.849609 66.6953125,132.585938 C60.5839844,119.322266 52.171875,88.1582031 73.7539062,72.234375 C95.3359375,56.3105469 105.433594,66.1171875 121.888672,78.2714844 C138.34375,90.4257813 147.492188,91.9472656 165.455078,90.4257812 C194.238404,87.9877894 194.971477,49.5218633 233.974609,49.2675781 C251.304454,49.1545943 264.240234,63.9726563 270.298828,84.3261719 C276.357422,104.679688 272.367187,113.714844 284.570312,132.585938 C296.773437,151.457031 355.600586,163 359.691406,201 C362.851789,230.357081 325.002534,257.533917 302.367187,271.632813 C285.528654,282.121043 278.50293,291.138672 262.257812,320.647461 Z" id="Combined-Shape" stroke="#494231" stroke-width="4" fill="#FFFFFF"></path>
+        <g id="Egg-Yolk" fill-rule="nonzero">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
         </g>
+        <ellipse id="Oval" fill="#FFFFFF" cx="177.188825" cy="148.7809" rx="10.1888246" ry="7.78090023"></ellipse>
+        <ellipse id="Oval" fill="#FFFFFF" cx="158.331458" cy="160.912957" rx="5.33145809" ry="4.91295705"></ellipse>
     </g>
 </svg>
