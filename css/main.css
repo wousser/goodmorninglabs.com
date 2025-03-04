@@ -84,3 +84,17 @@ body {
     height: 100px;
     margin-bottom: 20px;
 }
+
+.small {
+    font-size: 0.8rem;
+}
+
+.text-color-secondary {
+    color: #666;
+}
+
+.bottom {
+    margin-top: 400pt;
+    width: 100%;
+    text-align: center;
+}
